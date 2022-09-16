@@ -1,0 +1,36 @@
+{
+    "name": "somewhat-unreleased/stepwise",
+    "description": "",
+    "keywords": [],
+    "homepage": "https://github.com/somewhat-unreleased/stepwise",
+    "license": "proprietary",
+    "type": "library",
+    "authors": [],
+    "require": {
+        "php": "^7.0",
+        "illuminate/support": ">=5.0",
+        "nesbot/carbon": "^1.0"
+    },
+    "require-dev": {
+        "jchook/phpunit-assert-throws": "^1.0",
+        "mockery/mockery": "^1.3",
+        "orchestra/testbench": "^3.2",
+        "phpunit/phpunit": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeDistortion\\Stepwise\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CodeDistortion\\Stepwise\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
